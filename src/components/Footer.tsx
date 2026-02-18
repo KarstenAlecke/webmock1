@@ -45,13 +45,13 @@ const Footer = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-5 sm:grid-cols-10 gap-4 mb-12"
+          className="flex gap-4 justify-center mb-12"
         >
-          {[...Array(20)].map((_, i) => (
+          {[...Array(5)].map((_, i) => (
             <motion.div
               key={i}
               variants={boxVariants}
-              className="aspect-square bg-pure-white"
+              className="w-12 h-12 sm:w-16 sm:h-16 bg-pure-white"
             />
           ))}
         </motion.div>
