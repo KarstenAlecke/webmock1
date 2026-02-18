@@ -28,7 +28,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative h-screen bg-pure-white overflow-hidden">
+    <section className="relative h-[100dvh] bg-pure-white overflow-hidden">
       {/* Background rectangles */}
       <div 
         className="absolute inset-0 opacity-10"
