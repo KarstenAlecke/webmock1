@@ -28,7 +28,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-pure-white overflow-hidden">
+    <section className="relative min-h-screen bg-pure-white overflow-hidden">
       {/* Background rectangles */}
       <div 
         className="absolute inset-0 opacity-10"
@@ -46,7 +46,7 @@ const Hero = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 px-8"
+        className="absolute top-[33.333vh] left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 px-8 w-full"
       >
         <h1 className="font-display text-[15vw] sm:text-[12vw] md:text-[10vw] leading-none tracking-tight text-center">
           {'homanize'.split('').map((letter, index) => (

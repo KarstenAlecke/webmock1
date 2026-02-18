@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import InfoSection from './components/InfoSection'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
         alignment="left"
       />
       
-      <div className="h-32" />
+      <Footer />
     </div>
   )
 }
