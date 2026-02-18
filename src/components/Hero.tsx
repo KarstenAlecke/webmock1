@@ -28,7 +28,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen bg-pure-white overflow-hidden">
+    <section className="relative h-screen bg-pure-white overflow-hidden">
       {/* Background rectangles */}
       <div 
         className="absolute inset-0 opacity-10"
@@ -75,7 +75,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2"
+        className="absolute bottom-12 sm:bottom-16 md:bottom-12 left-1/2 -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}
